@@ -6,6 +6,17 @@ namespace UnitTest
         [TestMethod]
         public void TestMethod1()
         {
+            string message = "Hello, World!";
+            string expectedOutput = "HELLO, WORLD!";
+
+            string actualOutput = DisplayMessageInUppercase(message);
+
+            Assert.AreEqual(expectedOutput, actualOutput);
+        }
+
+        private string DisplayMessageInUppercase(string message)
+        {
+            return message.ToUpper();
         }
     }
 }

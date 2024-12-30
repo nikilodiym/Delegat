@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace UnitTest
 {
     [TestClass]
-    internal class UnitTask3
+    public class UnitTest3
     {
         private static int number;
 
@@ -17,7 +17,7 @@ namespace UnitTest
             return number % 2 == 0;
         }
 
-        public static bool IsOdd(int)
+        public static bool IsOdd(int number)
         {
             return number % 2 != 0;
         }

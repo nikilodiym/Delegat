@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace UnitTest
 {
     [TestClass]
-    internal class UnitTest2
+    public class UnitTest2
     {
         [TestMethod]
         public void Add_ShouldReturnCorrectResult()
